@@ -1,0 +1,95 @@
+{
+	"tables": {
+		"Meeting": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "309.68359375",
+				"top": "21.62109375",
+				"width": "146.1953125",
+				"height": "178.421875"
+			},
+			"displayable_fields_count": 6,
+			"fields_ordering": 1,
+			"fields": {
+				"IDEvent": {
+					"position": 3
+				},
+				"endTime": {
+					"position": 4
+				},
+				"startTime": {
+					"position": 5
+				},
+				"Description": {
+					"position": 1
+				},
+				"Title": {
+					"position": 6
+				},
+				"ID": {
+					"position": 2
+				}
+			}
+		},
+		"Event": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "4.54296875",
+				"top": "59.92578125",
+				"width": "128.234375",
+				"height": "134.33203125"
+			},
+			"displayable_fields_count": 4
+		},
+		"INFO": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "1.3046875",
+				"top": "340.03125",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6,
+			"fields_ordering": 2,
+			"fields": {
+				"PageNumber": {
+					"position": 2
+				},
+				"TabTitle": {
+					"position": 3
+				},
+				"Description": {
+					"position": 4
+				},
+				"ID": {
+					"position": 1
+				}
+			}
+		}
+	},
+	"relations": {
+		"E17E8BBB0D8D481CB08A135696704739": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			}
+		}
+	}
+}

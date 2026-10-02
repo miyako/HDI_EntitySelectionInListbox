@@ -1,0 +1,55 @@
+@media (prefers-color-scheme: light) {
+	.panel {
+		fill: #C0C0C0;
+	}
+
+	.muted {
+		stroke: #696969;
+	}
+
+	.link {
+		stroke: #1E90FF;
+	}
+
+	.overlay-text {
+		stroke: #212121;
+	}
+
+	.ref-red {
+		fill: #FFCCCC;
+		visibility: hidden;
+	}
+
+	.ref-blue {
+		fill: #00CCCC;
+		visibility: hidden;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.panel {
+		fill: #3A3A3A;
+	}
+
+	.muted {
+		stroke: #A0A0A0;
+	}
+
+	.link {
+		stroke: #5CB8FF;
+	}
+
+	.overlay-text {
+		stroke: #212121;
+	}
+
+	.ref-red {
+		fill: #5C2020;
+		visibility: hidden;
+	}
+
+	.ref-blue {
+		fill: #1E4D4D;
+		visibility: hidden;
+	}
+}

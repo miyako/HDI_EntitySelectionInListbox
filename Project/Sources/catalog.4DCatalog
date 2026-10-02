@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_EntitySelectionInListbox" uuid="2D4F6103DC084198BFC0283C03D0A0B2" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="INFO" uuid="107A367EBCC346259FD971E8FC1097DA" id="1">
+		<field name="ID" uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Description" uuid="C9EFE648E9234AADA33FB25D61C0190B" type="10" never_null="true" id="2"/>
+		<field name="TabTitle" uuid="58AF214936C941439CB263026A5B46ED" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="PageNumber" uuid="A2D86BBFD5134D06999CBDD14FD07A27" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<table name="Event" uuid="4264F23C8C134C50A5BD9C4661CB03C8" id="2">
+		<field name="ID" uuid="522E4FEEE23D48CD87FAD022C5BC028C" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="B95FAED0F2194A0E9B204C0BFC8D959B" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Date" uuid="9CB08AFDDC444D27AD1B2881A48FD2B0" type="8" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="522E4FEEE23D48CD87FAD022C5BC028C"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<table name="Meeting" uuid="C16B61C99D5F4C038AE0CD019184A750" id="3">
+		<field name="ID" uuid="00060E2F6E6943C5BE62906F8898DDA3" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="F7D07167242A4D3D8F51AD469256E29F" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Description" uuid="24B7630D3E0947C2B2CBE077644FBD2B" type="10" never_null="true" id="3"/>
+		<field name="startTime" uuid="8EA0B92851784E9C8BD53958F924C9B9" type="9" never_null="true" id="4"/>
+		<field name="endTime" uuid="F441F001E5E44F67BC4069AA4C1B2FBB" type="9" never_null="true" id="5"/>
+		<field name="IDEvent" uuid="09C50F25F5E54BCE8D1718D023053DF7" type="4" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="00060E2F6E6943C5BE62906F8898DDA3"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<relation uuid="E17E8BBB0D8D481CB08A135696704739" name_Nto1="event" name_1toN="meetings" state="1">
+		<related_field kind="source">
+			<field_ref uuid="09C50F25F5E54BCE8D1718D023053DF7" name="IDEvent">
+				<table_ref uuid="C16B61C99D5F4C038AE0CD019184A750" name="Meeting"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="522E4FEEE23D48CD87FAD022C5BC028C" name="ID">
+				<table_ref uuid="4264F23C8C134C50A5BD9C4661CB03C8" name="Event"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true"/>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="3288D1AC7C7D4AEC9705529144A61F00" type="7">
+		<field_ref uuid="00060E2F6E6943C5BE62906F8898DDA3" name="ID">
+			<table_ref uuid="C16B61C99D5F4C038AE0CD019184A750" name="Meeting"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="B17E3BF54450493DB72FBD48A5745784" type="7">
+		<field_ref uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" name="ID">
+			<table_ref uuid="107A367EBCC346259FD971E8FC1097DA" name="INFO"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="EB69B625DFE848AE88F454605C2C9BA3" type="7">
+		<field_ref uuid="522E4FEEE23D48CD87FAD022C5BC028C" name="ID">
+			<table_ref uuid="4264F23C8C134C50A5BD9C4661CB03C8" name="Event"/>
+		</field_ref>
+	</index>
+	<base_extra package_name="HDI_EntitySelectionInListbox" structure_file_name="HowDoI" data_file_path=":HowDoI.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
