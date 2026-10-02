@@ -67,7 +67,8 @@
 					"defaultButton": true,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/BtnDemo.4dm"
 				},
 				"Icon4D": {
 					"type": "picture",

@@ -1,5 +1,5 @@
 //the button already has "accept" standard action
-If (Form event code:C388=On Clicked)
+If (FORM Event.code=On Clicked)
 	
 	If (Form:C1466.quit)
 		INVOKE ACTION(ak return to design mode)
