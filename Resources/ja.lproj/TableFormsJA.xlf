@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="TableForms" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="INFO_Input_Text" resname="INFO_Input_Text">
+				<source>Page number:</source>
+				<target>ページ番号:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Input_Text1" resname="INFO_Input_Text1">
+				<source>Tab Title:</source>
+				<target>タブのタイトル:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Output_S1_Text" resname="INFO_Output_S1_Text">
+				<source>Page:</source>
+				<target>ページ:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Output_S2_Text" resname="INFO_Output_S2_Text">
+				<source>Title</source>
+				<target>タイトル</target>
+			</trans-unit>
+			<trans-unit id="Event_Input_Text6" resname="Event_Input_Text6">
+				<source>Event</source>
+				<target>イベント</target>
+			</trans-unit>
+			<trans-unit id="Event_Input_Text8" resname="Event_Input_Text8">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Event_Input_Text9" resname="Event_Input_Text9">
+				<source>Text : </source>
+				<target>テキスト : </target>
+			</trans-unit>
+			<trans-unit id="Event_Input_Text10" resname="Event_Input_Text10">
+				<source>Date : </source>
+				<target>日付 : </target>
+			</trans-unit>
+			<trans-unit id="Event_Output_S1_Text" resname="Event_Output_S1_Text">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Event_Output_S2_Text" resname="Event_Output_S2_Text">
+				<source>Text : </source>
+				<target>テキスト : </target>
+			</trans-unit>
+			<trans-unit id="Event_Output_S3_Text" resname="Event_Output_S3_Text">
+				<source>Date : </source>
+				<target>日付 : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Input_Text9" resname="Meeting_Input_Text9">
+				<source>Meeting</source>
+				<target>ミーティング</target>
+			</trans-unit>
+			<trans-unit id="Meeting_Input_Text11" resname="Meeting_Input_Text11">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Input_Text12" resname="Meeting_Input_Text12">
+				<source>Title : </source>
+				<target>タイトル : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Input_Text13" resname="Meeting_Input_Text13">
+				<source>Resume : </source>
+				<target>概要 : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Input_Text14" resname="Meeting_Input_Text14">
+				<source>startTime : </source>
+				<target>開始時刻 : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Input_Text15" resname="Meeting_Input_Text15">
+				<source>endTime : </source>
+				<target>終了時刻 : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Input_Text16" resname="Meeting_Input_Text16">
+				<source>IDEvent : </source>
+				<target>イベントID : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Output_S1_Text" resname="Meeting_Output_S1_Text">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Output_S2_Text" resname="Meeting_Output_S2_Text">
+				<source>Title : </source>
+				<target>タイトル : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Output_S3_Text" resname="Meeting_Output_S3_Text">
+				<source>Resume : </source>
+				<target>概要 : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Output_S4_Text" resname="Meeting_Output_S4_Text">
+				<source>startTime : </source>
+				<target>開始時刻 : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Output_S5_Text" resname="Meeting_Output_S5_Text">
+				<source>endTime : </source>
+				<target>終了時刻 : </target>
+			</trans-unit>
+			<trans-unit id="Meeting_Output_S6_Text" resname="Meeting_Output_S6_Text">
+				<source>IDEvent : </source>
+				<target>イベントID : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

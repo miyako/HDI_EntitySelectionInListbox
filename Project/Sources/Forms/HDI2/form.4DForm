@@ -39,6 +39,24 @@
 						"onClick"
 					]
 				},
+				"refRed": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 1,
+					"class": "ref-red",
+					"stroke": "transparent"
+				},
+				"refBlue": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 1,
+					"height": 1,
+					"class": "ref-blue",
+					"stroke": "transparent"
+				},
 				"Line": {
 					"type": "line",
 					"top": 0,
@@ -64,6 +82,7 @@
 				},
 				"information": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 80,
 					"left": 80,
 					"width": 660,
@@ -88,6 +107,7 @@
 			"objects": {
 				"information2": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 70,
 					"left": 40,
 					"width": 720,
@@ -108,13 +128,15 @@
 				},
 				"Variable": {
 					"type": "input",
+					"fill": "automatic",
+					"stroke": "automatic",
 					"top": 210,
 					"left": 198,
 					"width": 407,
 					"height": 350,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"dataSource": "pictInfo",
+					"dataSource": "Form:C1466.pictInfo",
 					"dataSourceTypeHint": "picture",
 					"focusable": false,
 					"enterable": false,
@@ -127,10 +149,10 @@
 				},
 				"Button": {
 					"type": "button",
+					"class": "default",
 					"top": 180,
 					"left": 198,
 					"width": 40,
-					"height": 20,
 					"text": "<",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
@@ -140,10 +162,10 @@
 				},
 				"Button1": {
 					"type": "button",
+					"class": "default",
 					"top": 180,
 					"left": 278,
 					"width": 40,
-					"height": 20,
 					"text": ">",
 					"focusable": false,
 					"defaultButton": true,
@@ -154,12 +176,12 @@
 				},
 				"Button3": {
 					"type": "button",
+					"class": "default",
 					"top": 180,
 					"left": 486,
 					"width": 119,
-					"height": 20,
 					"sizingX": "move",
-					"text": "Go to example",
+					"text": ":xliff:HDI2_BtnGoToExample",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
@@ -168,11 +190,12 @@
 				},
 				"Variable3": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 183,
 					"left": 238,
 					"width": 40,
 					"height": 17,
-					"dataSource": "String:C10(currentStep)+\"/8\"",
+					"dataSource": "String:C10(Form:C1466.currentStep)+\"/8\"",
 					"textAlign": "center",
 					"focusable": false,
 					"fill": "transparent",
@@ -203,6 +226,10 @@
 					"dataSource": "Form:C1466.meetingList",
 					"currentItemSource": "Form:C1466.myMeeting",
 					"selectionMode": "single",
+					"resizingMode": "legacy",
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
 					"scrollbarHorizontal": "automatic",
 					"events": [
 						"onClick",
@@ -215,13 +242,11 @@
 							"name": "Column8",
 							"dataSource": "This:C1470.ID",
 							"width": 38,
+							"truncateMode": "none",
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"resizable": false,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -230,7 +255,7 @@
 							],
 							"header": {
 								"name": "Header8",
-								"text": "ID",
+								"text": ":xliff:HDI2_HeaderID",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -248,12 +273,10 @@
 							"dataSource": "This:C1470.event.Date",
 							"dataSourceTypeHint": "date",
 							"width": 80,
+							"truncateMode": "none",
 							"minWidth": 80,
 							"maxWidth": 120,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -262,7 +285,7 @@
 							],
 							"header": {
 								"name": "Header10",
-								"text": "Date",
+								"text": ":xliff:HDI2_HeaderDate",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -279,12 +302,10 @@
 							"name": "Column11",
 							"dataSource": "This:C1470.event.Title",
 							"width": 200,
+							"truncateMode": "none",
 							"minWidth": 180,
 							"maxWidth": 300,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -293,7 +314,7 @@
 							],
 							"header": {
 								"name": "Header11",
-								"text": "Event",
+								"text": ":xliff:HDI2_HeaderEvent",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -310,12 +331,10 @@
 							"name": "Column15",
 							"dataSource": "This:C1470.Title",
 							"width": 247,
+							"truncateMode": "none",
 							"minWidth": 200,
 							"maxWidth": 400,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -324,7 +343,7 @@
 							],
 							"header": {
 								"name": "Header15",
-								"text": "Meeting",
+								"text": ":xliff:HDI2_HeaderMeeting",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -341,12 +360,10 @@
 							"name": "Column16",
 							"dataSource": "Time string:C180(This:C1470.startTime)",
 							"width": 70,
+							"truncateMode": "none",
 							"minWidth": 70,
 							"maxWidth": 90,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -355,7 +372,7 @@
 							],
 							"header": {
 								"name": "Header16",
-								"text": "Start",
+								"text": ":xliff:HDI2_HeaderStart",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -372,12 +389,10 @@
 							"name": "Column17",
 							"dataSource": "Time string:C180(This:C1470.endTime)",
 							"width": 70,
+							"truncateMode": "none",
 							"minWidth": 70,
 							"maxWidth": 90,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -386,7 +401,7 @@
 							],
 							"header": {
 								"name": "Header17",
-								"text": "End",
+								"text": ":xliff:HDI2_HeaderEnd",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -403,12 +418,12 @@
 				},
 				"btnAllMeeting": {
 					"type": "button",
+					"class": "default",
 					"top": 540,
 					"left": 40,
 					"width": 100,
-					"height": 20,
 					"sizingY": "move",
-					"text": "All",
+					"text": ":xliff:HDI2_BtnAll",
 					"focusable": false,
 					"method": "ObjectMethods/btnAllMeeting.4dm",
 					"events": [
@@ -417,12 +432,12 @@
 				},
 				"btnQueryMeeting": {
 					"type": "button",
+					"class": "default",
 					"top": 540,
 					"left": 150,
 					"width": 146,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Query with ID > 10",
+					"text": ":xliff:HDI2_BtnQueryMeeting",
 					"focusable": false,
 					"method": "ObjectMethods/btnQueryMeeting.4dm",
 					"events": [
@@ -431,6 +446,7 @@
 				},
 				"information1": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 70,
 					"left": 40,
 					"width": 880,
@@ -455,13 +471,15 @@
 			"objects": {
 				"Variable1": {
 					"type": "input",
+					"fill": "automatic",
+					"stroke": "automatic",
 					"top": 210,
 					"left": 198,
 					"width": 407,
 					"height": 350,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"dataSource": "pictInfo",
+					"dataSource": "Form:C1466.pictInfo",
 					"dataSourceTypeHint": "picture",
 					"focusable": false,
 					"enterable": false,
@@ -474,10 +492,10 @@
 				},
 				"Button5": {
 					"type": "button",
+					"class": "default",
 					"top": 179,
 					"left": 198,
 					"width": 40,
-					"height": 20,
 					"text": "<",
 					"fontFamily": "System Font",
 					"fontSize": 13,
@@ -489,10 +507,10 @@
 				},
 				"Button6": {
 					"type": "button",
+					"class": "default",
 					"top": 180,
 					"left": 278,
 					"width": 42,
-					"height": 20,
 					"text": ">",
 					"fontFamily": "System Font",
 					"fontSize": 13,
@@ -505,12 +523,12 @@
 				},
 				"Button7": {
 					"type": "button",
+					"class": "default",
 					"top": 179,
 					"left": 486,
 					"width": 119,
-					"height": 20,
 					"sizingX": "move",
-					"text": "Go to example",
+					"text": ":xliff:HDI2_BtnGoToExample",
 					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
@@ -519,6 +537,7 @@
 				},
 				"information4": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 70,
 					"left": 40,
 					"width": 720,
@@ -539,11 +558,12 @@
 				},
 				"Variable2": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 182,
 					"left": 238,
 					"width": 40,
 					"height": 17,
-					"dataSource": "String:C10(currentStep-8)+\"/14\"",
+					"dataSource": "String:C10(Form:C1466.currentStep-8)+\"/14\"",
 					"textAlign": "center",
 					"focusable": false,
 					"fill": "transparent",
@@ -561,6 +581,7 @@
 			"objects": {
 				"information3": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 70,
 					"left": 40,
 					"width": 720,
@@ -595,6 +616,10 @@
 					"currentItemSource": "Form:C1466.myEvent",
 					"metaSource": "Choose:C955(This:C1470.meetings.length=0; Form:C1466.meta.noMeeting; Form:C1466.meta.hasMeeting)",
 					"selectionMode": "single",
+					"resizingMode": "legacy",
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
 					"scrollbarHorizontal": "automatic",
 					"events": [
 						"onClick",
@@ -607,13 +632,11 @@
 							"name": "Column1",
 							"dataSource": "This:C1470.ID",
 							"width": 38,
+							"truncateMode": "none",
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"resizable": false,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -622,7 +645,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "ID",
+								"text": ":xliff:HDI2_HeaderID",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -639,12 +662,10 @@
 							"name": "Column2",
 							"dataSource": "This:C1470.Title",
 							"width": 180,
+							"truncateMode": "none",
 							"minWidth": 170,
 							"maxWidth": 300,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -653,7 +674,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Text",
+								"text": ":xliff:HDI2_HeaderText",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -670,12 +691,10 @@
 							"name": "Column3",
 							"dataSource": "This:C1470.Date",
 							"width": 80,
+							"truncateMode": "none",
 							"minWidth": 80,
 							"maxWidth": 110,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -684,7 +703,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Date",
+								"text": ":xliff:HDI2_HeaderDate",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -701,13 +720,11 @@
 							"name": "Column7",
 							"dataSource": "This:C1470.meetings.length",
 							"width": 77,
+							"truncateMode": "none",
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"resizable": false,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -716,7 +733,7 @@
 							],
 							"header": {
 								"name": "Header7",
-								"text": "Nb meeting",
+								"text": ":xliff:HDI2_HeaderNbMeeting",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -733,12 +750,12 @@
 				},
 				"btnAllEvent": {
 					"type": "button",
+					"class": "default",
 					"top": 540,
 					"left": 40,
 					"width": 90,
-					"height": 20,
 					"sizingY": "move",
-					"text": "All",
+					"text": ":xliff:HDI2_BtnAll",
 					"focusable": false,
 					"method": "ObjectMethods/btnAllEvent.4dm",
 					"events": [
@@ -747,6 +764,10 @@
 				},
 				"List Box1": {
 					"type": "listbox",
+					"resizingMode": "legacy",
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
 					"top": 140,
 					"left": 450,
 					"width": 310,
@@ -769,12 +790,10 @@
 							"name": "Column4",
 							"dataSource": "This:C1470.Title",
 							"width": 155,
+							"truncateMode": "none",
 							"minWidth": 140,
 							"maxWidth": 300,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -783,7 +802,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Title",
+								"text": ":xliff:HDI2_HeaderTitle",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -800,12 +819,10 @@
 							"name": "Column5",
 							"dataSource": "Time string:C180(This:C1470.startTime)",
 							"width": 70,
+							"truncateMode": "none",
 							"minWidth": 70,
 							"maxWidth": 90,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -814,7 +831,7 @@
 							],
 							"header": {
 								"name": "Header5",
-								"text": "Start",
+								"text": ":xliff:HDI2_HeaderStart",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -831,12 +848,10 @@
 							"name": "Column6",
 							"dataSource": "Time string:C180(This:C1470.endTime)",
 							"width": 70,
+							"truncateMode": "none",
 							"minWidth": 70,
 							"maxWidth": 90,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -845,7 +860,7 @@
 							],
 							"header": {
 								"name": "Header6",
-								"text": "End",
+								"text": ":xliff:HDI2_HeaderEnd",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -862,12 +877,12 @@
 				},
 				"btnSetBlue": {
 					"type": "button",
+					"class": "default",
 					"top": 540,
 					"left": 330,
 					"width": 180,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Set blue (meeting = 0 )",
+					"text": ":xliff:HDI2_BtnSetBlue",
 					"focusable": false,
 					"method": "ObjectMethods/btnSetBlue.4dm",
 					"events": [
@@ -876,13 +891,13 @@
 				},
 				"Button4": {
 					"type": "button",
+					"class": "default",
 					"top": 540,
 					"left": 520,
 					"width": 180,
-					"height": 20,
 					"sizingY": "move",
 					"dataSource": "btnSetRed",
-					"text": "Set red (meeting = 0 )",
+					"text": ":xliff:HDI2_BtnSetRed",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
@@ -903,12 +918,12 @@
 				},
 				"btnQueryEvent": {
 					"type": "button",
+					"class": "default",
 					"top": 540,
 					"left": 140,
 					"width": 180,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Query (Date > 01/06/18)",
+					"text": ":xliff:HDI2_BtnQueryEvent",
 					"focusable": false,
 					"method": "ObjectMethods/btnQueryEvent.4dm",
 					"events": [

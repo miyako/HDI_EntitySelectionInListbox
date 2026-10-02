@@ -182,6 +182,8 @@
 				},
 				"Field": {
 					"type": "input",
+					"fill": "automatic",
+					"stroke": "automatic",
 					"top": 98,
 					"left": 218,
 					"width": 229,
@@ -196,6 +198,8 @@
 				},
 				"Field1": {
 					"type": "input",
+					"fill": "automatic",
+					"stroke": "automatic",
 					"top": 128,
 					"left": 218,
 					"width": 229,
@@ -209,6 +213,7 @@
 				},
 				"Description": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 178,
 					"left": 21,
 					"width": 449,
@@ -217,7 +222,7 @@
 					"sizingY": "grow",
 					"dataSource": "[INFO:1]Description:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"scrollbarVertical": "visible",
@@ -237,21 +242,23 @@
 				},
 				"Text": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 98,
 					"left": 36,
 					"width": 150,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Page number:"
+					"text": ":xliff:INFO_Input_Text"
 				},
 				"Text1": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 128,
 					"left": 36,
 					"width": 150,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Tab Title:"
+					"text": ":xliff:INFO_Input_Text1"
 				}
 			}
 		}

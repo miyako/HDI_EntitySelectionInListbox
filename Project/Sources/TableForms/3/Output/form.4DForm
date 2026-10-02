@@ -53,60 +53,67 @@
 				},
 				"S1_Text": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 0,
 					"left": 24,
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:Meeting_Output_S1_Text"
 				},
 				"S2_Text": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 0,
 					"left": 120,
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Title : "
+					"text": ":xliff:Meeting_Output_S2_Text"
 				},
 				"S3_Text": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 0,
 					"left": 432,
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Resume : "
+					"text": ":xliff:Meeting_Output_S3_Text"
 				},
 				"S4_Text": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 0,
 					"left": 744,
 					"width": 63,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "startTime : "
+					"text": ":xliff:Meeting_Output_S4_Text"
 				},
 				"S5_Text": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 0,
 					"left": 839,
 					"width": 63,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "endTime : "
+					"text": ":xliff:Meeting_Output_S5_Text"
 				},
 				"S6_Text": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 0,
 					"left": 934,
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "IDEvent : "
+					"text": ":xliff:Meeting_Output_S6_Text"
 				},
 				"Rectangle8": {
 					"type": "rectangle",
+					"fill": "automatic",
 					"top": 19,
 					"left": 0,
 					"width": 1014,
@@ -116,6 +123,7 @@
 				},
 				"S1_Field": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 23,
 					"left": 24,
 					"width": 64,
@@ -144,13 +152,14 @@
 				},
 				"S2_Field": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 23,
 					"left": 120,
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Meeting:3]Title:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -169,13 +178,14 @@
 				},
 				"S3_Field": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 23,
 					"left": 432,
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Meeting:3]Description:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -194,6 +204,7 @@
 				},
 				"S4_Field": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 23,
 					"left": 744,
 					"width": 63,
@@ -201,7 +212,7 @@
 					"sizingX": "grow",
 					"dataSource": "[Meeting:3]startTime:4",
 					"dataSourceTypeHint": "time",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -220,6 +231,7 @@
 				},
 				"S5_Field": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 23,
 					"left": 839,
 					"width": 63,
@@ -227,7 +239,7 @@
 					"sizingX": "grow",
 					"dataSource": "[Meeting:3]endTime:5",
 					"dataSourceTypeHint": "time",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -246,6 +258,7 @@
 				},
 				"S6_Field": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 23,
 					"left": 934,
 					"width": 64,
@@ -253,7 +266,7 @@
 					"sizingX": "grow",
 					"dataSource": "[Meeting:3]IDEvent:6",
 					"dataSourceTypeHint": "integer",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",

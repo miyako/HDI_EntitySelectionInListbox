@@ -1,9 +1,7 @@
-
-
-If (currentStep>9)
-	currentStep:=currentStep-1
+If (Form:C1466.currentStep>9)
+	Form:C1466.currentStep:=Form:C1466.currentStep-1
 Else 
-	currentStep:=22
+	Form:C1466.currentStep:=22
 End if 
 
-loadPicture(currentStep)
+loadPicture(Form:C1466.currentStep)

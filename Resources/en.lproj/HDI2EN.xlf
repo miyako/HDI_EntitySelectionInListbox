@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_BtnGoToExample" resname="HDI2_BtnGoToExample">
+				<source>Go to example</source>
+				<target>Go to example</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnAll" resname="HDI2_BtnAll">
+				<source>All</source>
+				<target>All</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnQueryMeeting" resname="HDI2_BtnQueryMeeting">
+				<source>Query with ID &gt; 10</source>
+				<target>Query with ID &gt; 10</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnSetBlue" resname="HDI2_BtnSetBlue">
+				<source>Set blue (meeting = 0 )</source>
+				<target>Set blue (meeting = 0 )</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnSetRed" resname="HDI2_BtnSetRed">
+				<source>Set red (meeting = 0 )</source>
+				<target>Set red (meeting = 0 )</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnQueryEvent" resname="HDI2_BtnQueryEvent">
+				<source>Query (Date &gt; 01/06/18)</source>
+				<target>Query (Date &gt; 01/06/18)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderID" resname="HDI2_HeaderID">
+				<source>ID</source>
+				<target>ID</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderDate" resname="HDI2_HeaderDate">
+				<source>Date</source>
+				<target>Date</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderEvent" resname="HDI2_HeaderEvent">
+				<source>Event</source>
+				<target>Event</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderMeeting" resname="HDI2_HeaderMeeting">
+				<source>Meeting</source>
+				<target>Meeting</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderStart" resname="HDI2_HeaderStart">
+				<source>Start</source>
+				<target>Start</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderEnd" resname="HDI2_HeaderEnd">
+				<source>End</source>
+				<target>End</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderText" resname="HDI2_HeaderText">
+				<source>Text</source>
+				<target>Text</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderNbMeeting" resname="HDI2_HeaderNbMeeting">
+				<source>Nb meeting</source>
+				<target>Nb meeting</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderTitle" resname="HDI2_HeaderTitle">
+				<source>Title</source>
+				<target>Title</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

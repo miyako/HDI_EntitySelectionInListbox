@@ -1,6 +1,3 @@
 //%attributes = {"invisible":true}
-C_TEXT:C284(vDescription1)
-C_TEXT:C284(vDescription2)
-C_REAL:C285(btnSetRed)
-C_LONGINT:C283(currentStep)
-C_PICTURE:C286(pictInfo)
+  // no process variables left: state is held in Form (Form.currentStep, Form.pictInfo);
+  // form-bound variables (btnSetRed) are typed by the form

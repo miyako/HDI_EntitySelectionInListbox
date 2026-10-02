@@ -18,8 +18,7 @@ Case of
 		End if 
 		
 		
-		C_LONGINT:C283(currentStep)
-		
+		Form:C1466.currentStep:=1
 		
 		Form:C1466.eventList:=ds:C1482.Event.all()
 		Form:C1466.myEvent:=New object:C1471
@@ -44,13 +43,13 @@ Case of
 		Case of 
 			: (FORM Get current page:C276=2)
 				
-				currentStep:=1
-				loadPicture(currentStep)
+				Form:C1466.currentStep:=1
+				loadPicture(Form:C1466.currentStep)
 				
 			: (FORM Get current page:C276=4)
 				
-				currentStep:=9
-				loadPicture(currentStep)
+				Form:C1466.currentStep:=9
+				loadPicture(Form:C1466.currentStep)
 				
 		End case 
 		

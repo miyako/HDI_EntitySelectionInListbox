@@ -46,7 +46,7 @@
 					"left": 554,
 					"width": 100,
 					"height": 12,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 9,
 					"focusable": false,
@@ -73,8 +73,8 @@
 					"width": 515,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "Event"
+					"stroke": "automatic",
+					"text": ":xliff:Event_Input_Text6"
 				},
 				"Line7": {
 					"type": "line",
@@ -218,33 +218,37 @@
 				},
 				"Text8": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 126,
 					"left": 286,
 					"width": 43,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:Event_Input_Text8"
 				},
 				"Text9": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 153,
 					"left": 286,
 					"width": 43,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Text : "
+					"text": ":xliff:Event_Input_Text9"
 				},
 				"Text10": {
 					"type": "text",
+					"stroke": "automatic",
 					"top": 180,
 					"left": 286,
 					"width": 43,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Date : "
+					"text": ":xliff:Event_Input_Text10"
 				},
 				"ID": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 126,
 					"left": 334,
 					"width": 64,
@@ -273,13 +277,14 @@
 				},
 				"Text": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 153,
 					"left": 334,
 					"width": 305,
 					"height": 17,
 					"dataSource": "[Event:2]Title:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -298,6 +303,7 @@
 				},
 				"Date": {
 					"type": "input",
+					"stroke": "automatic",
 					"top": 180,
 					"left": 334,
 					"width": 305,
@@ -305,7 +311,7 @@
 					"dataSource": "[Event:2]Date:3",
 					"dataSourceTypeHint": "date",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
